@@ -1,5 +1,5 @@
 ETAS and Inversion for Beginners.
-The codes only contain basics for the ETAS simulator and MLE parameter inversion for readability.
+The codes only contain basics for the ETAS simulation and MLE parameter inversion.
 
 RUN_ETAS_Simulation.m -> generate catalog
 
