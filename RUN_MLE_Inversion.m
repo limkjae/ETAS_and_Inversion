@@ -5,6 +5,8 @@
 %
 % This code only contains essentials for maximum likely hood inversion 
 % to enhance readability. Inversion can be slow if the data size is large
+% Consider downloading fminsearchbnd at following address if inversion is unstable  
+% https://www.mathworks.com/matlabcentral/fileexchange/8277-fminsearchbnd-fminsearchcon 
 % The code is written for the following research:
 % Im and Avouac (202?), Cascading Foreshocks, Aftershocks, and Earthquake 
 % Swarms in a Discrete Fault Network, GJI
