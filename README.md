@@ -1,8 +1,9 @@
 ETAS and Inversion for Beginners.
-The codes only contains basics for ETAS simulator and MLE parameter inversion for readability.
+The codes only contain basics for the ETAS simulator and MLE parameter inversion for readability.
 
 RUN_ETAS_Simulation.m -> generate catalog
-RUN_MLE_Inversion -> invert parameters from the generated catalog
+
+RUN_MLE_Inversion -> Invert parameters from the generated catalog
 
 The ETAS simulator is a simplified version of AFTSimulator.m 
 Felzer, K. R., T. W. Becker, R. E. Abercrombie, G. Ekstrom, and J. R.
