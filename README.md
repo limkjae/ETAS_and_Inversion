@@ -11,6 +11,6 @@ Rice, Triggering of the 1999 Mw 7.1 Hector Mine earthquake by aftershocks
 of the 1992 Mw 7.3 Landers earthquake, J. Geophys. Res., 107, 2190,
 doi:10.1029/2001JB000911, 2002.
 
-The inversion code is created for following research:
+The inversion code is created for:
 Im, K. and Avouac, J.-P., Cascading Foreshocks, Aftershocks, and Earthquake 
 Swarms in a Discrete Fault Network, GJI, 202?
