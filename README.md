@@ -1,6 +1,9 @@
 ETAS and Inversion for Beginners.
 The codes only contain basics for the ETAS simulation and MLE parameter inversion.
 
+Download fminsearchbnd at the following address and put the 'fminsearchbnd' at the same folder.
+https://www.mathworks.com/matlabcentral/fileexchange/8277-fminsearchbnd-fminsearchcon
+
 RUN_ETAS_Simulation.m -> generate catalog
 
 RUN_MLE_Inversion -> Invert parameters from the generated catalog
