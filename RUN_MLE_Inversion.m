@@ -5,6 +5,7 @@
 %
 % This code only contains essentials for maximum likely hood inversion 
 % to enhance readability. Inversion can be slow if data size is large
+% The code is generated for following research:
 % Im and Avouac (202?), Cascading Foreshocks, Aftershocks, and Earthquake 
 % Swarms in a Discrete Fault Network, GJI
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
