@@ -7,6 +7,7 @@
 % doi:10.1029/2001JB000911, 2002. 
 %
 % Everything except temporal ETAS simulation is removed from the original code 
+% to enhance readability for beginners
 % The simulation result will be saved as "CatalogETAS". 
 % The parameter inversion of the saved catalog can be done by 
 % RUN_MLE_Inversion.m
