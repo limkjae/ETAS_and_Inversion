@@ -1,22 +1,21 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This simulator is simplified temporal-only version of AFTSimulator.m 
+% This simulator is a simplified temporal-only version of AFTSimulator.m 
 % Felzer, K. R., T. W. Becker, R. E. Abercrombie, G. Ekstrom, and J. R.
 % Rice, Triggering of the 1999 Mw 7.1 Hector Mine earthquake by aftershocks
 % of the 1992 Mw 7.3 Landers earthquake, J. Geophys. Res., 107, 2190,
 % doi:10.1029/2001JB000911, 2002. 
 %
-% Everything except temporal ETAS simulation is removed from original code 
-% by Kyungjae Im.
+% Everything except temporal ETAS simulation is removed from the original code 
 % The simulation result will be saved as "CatalogETAS". 
-% The parameter inversion of saved catalog can be done by 
+% The parameter inversion of the saved catalog can be done by 
 % RUN_MLE_Inversion.m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear all
 rng shuffle
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Input Prameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Input Parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%
 Mu0 = 0.01; % expected events per day
 C=0.001;
 P=1.20;
@@ -57,11 +56,11 @@ while NumOfNewQuakes>0
     TimeOfNewQuakes = NewQuakes(:,1);
     MagsOfNewQuakes = NewQuakes(:,2);
     
-    % Calculate how many aftershock expected for each new quakes
+    % Calculate how many aftershocks expected for each new quake
     AveNumOfAftsOfEachQuake ... 
        = AftProductivity.*exp(Alpha*(MagsOfNewQuakes - LowerLimitMagnitude));
    
-   % Pick actual number of new quakes as a random poisson process
+   % Pick the actual number of new quakes as a random poisson process
     NumOfAftsOfEachQuake ... 
         = poissinv(rand(length(AveNumOfAftsOfEachQuake),1), ... 
             AveNumOfAftsOfEachQuake);
