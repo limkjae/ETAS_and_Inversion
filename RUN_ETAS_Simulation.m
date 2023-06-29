@@ -23,8 +23,8 @@ P=1.20;
 K0=0.004;
 Alpha=log(10);
 
-LowerLimitMagnitude = 2.5; % magnitud lower limit 
-UpperLimitMagnitude = 7;  % magnitud upperlimit limit 
+LowerLimitMagnitude = 2.5; % magnitude lower limit 
+UpperLimitMagnitude = 7;  % magnitude upperlimit limit 
 SimulationDays = 50*365;
 
 
